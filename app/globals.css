@@ -1,0 +1,145 @@
+@import "tailwindcss";
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/* :root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+
+
+
+:root {
+  --background-color: #ffffff;
+  --text-color: #1a202c;
+  --button-bg: #edf2f7;
+  --button-hover-bg: #e2e8f0;
+}
+
+body.dark {
+  --background-color: #1a202c;
+  --text-color: #edf2f7;
+  --button-bg: #2d3748;
+  --button-hover-bg: #4a5568;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.5s, color 0.5s ease-in-out;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.board-container {
+  margin-top: 1rem;
+}
+
+.opacity-check {
+  opacity: 0.5;
+}
+
+
+/* Header */
+.header {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  border-bottom: 3px solid #0f3460;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  font-family: var(--font-geist-mono);
+  font-size: 2rem;
+  margin: 0;
+  letter-spacing: -0.02em;
+}
+
+.not {
+  color: #e94560;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.chess {
+  color: #f1f1f1;
+  font-weight: 700;
+}
+
+.dot {
+  color: #4ecca3;
+  font-weight: 700;
+}
+
+.com {
+  color: #f1f1f1;
+  font-weight: 400;
+}
+
+.tagline {
+  font-family: var(--font-geist-sans);
+  color: #a0a0a0;
+  font-size: 0.75rem;
+  margin: 0.25rem 0 0 0;
+  font-style: italic;
+  letter-spacing: 0.03em;
+}
+
+.theme-icon {
+  width: 40px;
+  align-self: center;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .tagline {
+    font-size: 0.65rem;
+  }
+}

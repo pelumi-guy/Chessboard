@@ -1,0 +1,14 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    /* width: clamp(320px, 90vmin, 640px);
+    height: clamp(320px, 90vmin, 640px);
+    border: 2px solid #333; */
+}
+
+.hardwood {
+    background-image: url('/darkwood_board.svg') !important;
+    grid-template-columns: repeat(8, 1fr);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
