@@ -34,8 +34,8 @@ This project demonstrates component reusability, accessibility, and clean archit
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/notchess.git
-cd notchess
+git clone https://github.com/pelumi-guy/Chessboard
+cd Chessboard
 ````
 
 ### 2. Install dependencies
@@ -60,8 +60,8 @@ npm run dev
 To containerize and run the app:
 
 ```bash
-docker build -t notchess .
-docker run -p 3000:3000 notchess
+docker build -t  .
+docker run -p 3000:3000 Chessboard
 ```
 
 Then visit **[http://localhost:3000](http://localhost:3000)**
