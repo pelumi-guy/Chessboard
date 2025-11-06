@@ -7,7 +7,7 @@
 }
 
 .hardwood {
-    background-image: url('/darkwood_board.svg') !important;
+    background-image: url('/hardwood_board.svg') !important;
     grid-template-columns: repeat(8, 1fr);
     background-size: cover;
     background-repeat: no-repeat;

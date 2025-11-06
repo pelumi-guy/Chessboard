@@ -9,7 +9,7 @@ interface ThemeIconProps {
 }
 
 const ThemeIcon = ({ theme }: ThemeIconProps) => {
-  return (theme === "light" ?
+  return (theme === "dark" ?
     (
       <Image src={darkMode} alt="dark mode" className='theme-icon'/>
     ) :
