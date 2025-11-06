@@ -27,8 +27,6 @@ This project demonstrates component reusability, accessibility, and clean archit
 
 ---
 
----
-
 ## ⚙️ Getting Started
 
 ### 1. Clone the repository
@@ -80,15 +78,15 @@ Then visit **[http://localhost:3000](http://localhost:3000)**
 ## 🎥 Demo
 
 A 1-minute walkthrough video of **notChess.com** can be found here:
-👉 [Demo Video Link](#) *(upload once ready)*
+👉 [Demo Video Link](https://www.loom.com/share/d39670b513014b7a995e27645200403f)
 
 ---
 
 ## 🧑‍💻 Tech Stack
 
-* **Framework:** Next.js 14 (App Router)
+* **Framework:** Next.js 16 (App Router)
 * **Language:** TypeScript
-* **Styling:** CSS Modules / SCSS
+* **Styling:** Basic CSS Modules
 * **Icons:** Custom SVG Chess Pieces
 * **Deployment:** Docker
 
