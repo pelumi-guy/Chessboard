@@ -3,7 +3,8 @@
     grid-template-columns: repeat(8, 1fr);
     /* width: clamp(320px, 90vmin, 640px);
     height: clamp(320px, 90vmin, 640px);
-    border: 2px solid #333; */
+    */
+    /* border: 2px solid #333; */
 }
 
 .hardwood {

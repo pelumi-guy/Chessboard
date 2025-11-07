@@ -18,7 +18,7 @@ const Square = ({ isBlack, isHighlighted, boardStyle, children, onClick }: Squar
 
     return (
         <div
-            className={`w-16 h-16 md:w-20 md:h-20 flex items-center justify-center relative ${squareColor}`}
+            className={`w-10 h-10 md:w-20 md:h-20 flex items-center justify-center relative ${squareColor}`}
             onClick={onClick}
             onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && onClick()}
             role="gridcell"
